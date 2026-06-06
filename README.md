@@ -1,24 +1,26 @@
-# Number Guessing Game
+# Rock Paper Scissors
 
-A simple console game written in C#.
+A simple Rock Paper Scissors console game written in C#.
 
 ## Features
 
-- Random number generation
-- User input validation
-- Guess counter
-- Play again option
+* Play Rock, Paper, Scissors against the computer
+* Random computer choices
+* Score tracking
+* Play again option
+* Input validation
 
 ## Technologies
 
-- C#
-- .NET
-- Visual Studio
+* C#
+* .NET
+* Visual Studio
 
-## What I learned
+## What I Learned
 
-- Loops (while)
-- Conditional statements (if/else)
-- Variables
-- Methods
-- Random class
+* Using loops (`while`)
+* Conditional statements (`if`, `else if`, `else`)
+* Using `switch` statements
+* Working with the `Random` class
+* Reading user input with `Console.ReadLine()`
+* Basic game logic
