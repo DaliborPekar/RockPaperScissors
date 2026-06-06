@@ -41,27 +41,27 @@
 
                 if (player == "ROCK" && computer == "SCISSORS")
                 {
-                    Console.WriteLine("You picked " + player + " computer picked " + computer + ".You WIN!!");
+                    Console.WriteLine($"You picked {player} computer picked {computer}.You WIN!!");
                     score++;
                 }
                 else if (player == "PAPER" && computer == "ROCK")
                 {
-                    Console.WriteLine("You picked " + player + " computer picked " + computer + ".You WIN!!");
+                    Console.WriteLine($"You picked {player} computer picked {computer}.You WIN!!");
                     score++;
                 }
                 else if (player == "SCISSORS" && computer == "PAPER")
                 {
-                    Console.WriteLine("You picked " + player + " computer picked " + computer + ".You WIN!!");
+                    Console.WriteLine($"You picked {player} computer picked {computer}.You WIN!!");
                     score++;
                 }
                 else if (player == computer)
                 {
-                    Console.WriteLine("You picked " + player + " computer picked " + computer + ".Its a draw");
+                    Console.WriteLine($"You picked {player} computer picked {computer}.Its draw");
                 }
 
                 else
                 {
-                    Console.WriteLine("You picked " + player + " computer picked " + computer + ".You lose");
+                    Console.WriteLine($"You picked {player} computer picked {computer}.You lose");
                     score--;
                 }
 
@@ -76,7 +76,7 @@
                         break;
                     case "N":
                         playAgain = false;
-                        Console.WriteLine("Your score: " + score);
+                        Console.WriteLine($"Your score: {score}");
                         break;
                     default:
                         playAgain = true;
